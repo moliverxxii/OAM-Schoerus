@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Schörus"
-Date ""
+Date "2023-06-26"
 Rev "0"
 Comp "OAM"
 Comment1 ""
@@ -789,13 +789,13 @@ Wire Wire Line
 	5850 6850 5900 6850
 $Comp
 L Amplifier_Operational:LM324 U4
-U 4 1 64FE30AE
+U 3 1 64FE30AE
 P 6200 6850
 F 0 "U4" H 6200 7217 50  0000 C CNN
 F 1 "LM324N" H 6200 7126 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6150 6950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6250 7050 50  0001 C CNN
-	4    6200 6850
+	3    6200 6850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -898,24 +898,24 @@ F 3 "" H 10750 6250 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:LM324 U4
-U 1 1 648CA775
+U 2 1 648CA775
 P 7500 3750
 F 0 "U4" H 7450 3500 50  0000 C CNN
 F 1 "LM324N" H 7450 3400 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7450 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7550 3950 50  0001 C CNN
-	1    7500 3750
+	2    7500 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324 U4
-U 2 1 648CB1BA
+U 1 1 648CB1BA
 P 10200 3650
 F 0 "U4" H 10400 3900 50  0000 C CNN
 F 1 "LM324N" H 10400 3800 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 10150 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 10250 3850 50  0001 C CNN
-	2    10200 3650
+	1    10200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1098,13 +1098,13 @@ Wire Wire Line
 	10750 4650 10750 4700
 $Comp
 L Amplifier_Operational:LM324 U4
-U 3 1 649A0E1F
+U 4 1 649A0E1F
 P 7250 5250
 F 0 "U4" H 7400 5400 50  0000 C CNN
 F 1 "LM324N" H 7400 5500 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7200 5350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7300 5450 50  0001 C CNN
-	3    7250 5250
+	4    7250 5250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
