@@ -1365,7 +1365,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3650 6750 3650
 Text Notes 9850 5900 0    50   ~ 0
-SW3\n1->2: Court\n3->2: Long
+SW4 Retard\n1->2, 4->5: Court\n3->2, 6->5: Long
 $Comp
 L Device:LED D5
 U 1 1 6499DD98
