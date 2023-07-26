@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Schörus"
-Date "2023-06-26"
+Date "2023-07-26"
 Rev "0"
 Comp "OAM"
 Comment1 ""
