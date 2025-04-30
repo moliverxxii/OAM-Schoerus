@@ -704,8 +704,8 @@ $Comp
 L Device:C C15
 U 1 1 64D1A5C5
 P 2650 6300
-F 0 "C15" V 2500 6200 50  0000 C CNN
-F 1 "10nF" V 2500 6400 50  0000 C CNN
+F 0 "C15" V 2700 6150 50  0000 C CNN
+F 1 "10nF" V 2800 6200 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 2688 6150 50  0001 C CNN
 F 3 "~" H 2650 6300 50  0001 C CNN
 	1    2650 6300
@@ -2316,4 +2316,14 @@ Text Notes 3200 3800 0    50   ~ 0
 2->1: GAIN
 Wire Wire Line
 	1100 3450 1300 3450
+Wire Notes Line rgb(255, 0, 0)
+	2150 6350 2250 6250
+Wire Notes Line rgb(255, 0, 0)
+	2150 6250 2250 6350
+Wire Notes Line rgb(255, 0, 0)
+	2900 6150 2900 6300
+Wire Notes Line rgb(255, 0, 0)
+	2000 6150 2900 6150
+Text Notes 650  6300 0    50   ~ 0
+Le circuit a une erreur. connecter\nR37 a l'autre pate de C15 pour \nconnecter l'entree du filtre LPF2\na la sortie de OP2
 $EndSCHEMATC

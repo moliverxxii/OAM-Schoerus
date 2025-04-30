@@ -1,0 +1,6 @@
+* text=lf
+
+*.pro       text 
+*.sch       text
+*.kicad_pcb text
+
